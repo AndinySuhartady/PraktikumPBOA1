@@ -8,9 +8,9 @@
 public class Titik {
 
     /* **** ATRIBUT **** */
-    double absis;
-    double ordinat;
-    static int counterTitik = 0;
+    private double absis;
+    private double ordinat;
+    private static int counterTitik;
 
     /* **** METHOD **** */
 
@@ -28,27 +28,30 @@ public class Titik {
         counterTitik++;
     }
 
-    /* **** METHOD **** */
+    /* **** GETTER **** */
     // Mengembalikan nilai absis
-    double getAbsis(){
+    public double getAbsis() {
         return absis;
     }
     
     // Mengembalikan nilai ordinat
-    double getOrdinat(){
+    public double getOrdinat() {
         return ordinat;
     }
 
     public static int getCounterTitik() {
         return counterTitik;
     }
+
+    /* **** SETTER **** */
+
     // Mengubah nilai absis
-    void setAbsis(double x){
+    public void setAbsis(double x) {
         absis = x;
     }
 
     //Mengubah nilai ordinat
-    void setOrdinat(double y){
+    public void setOrdinat(double y) {
         ordinat = y;
     }
 
