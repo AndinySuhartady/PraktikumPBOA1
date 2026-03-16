@@ -1,6 +1,11 @@
 /*
+<<<<<<< HEAD
 Nama File : MBangunDatar.java
 Deskripsi : Main class untuk menjalankan program
+=======
+Nama File : Persegi.java
+Deskripsi : Subclass untuk menjalankan program
+>>>>>>> Pertemuan4
 Pembuat   : Andiny Khaerany Suhartady
 Tanggal   : 16 Maret 2026
 */
