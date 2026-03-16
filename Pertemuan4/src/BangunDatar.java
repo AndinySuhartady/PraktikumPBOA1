@@ -11,9 +11,6 @@ public class BangunDatar {
     private String border;
     private static int counterBangunDatar = 0;
 
-
-
-
     // Konstruktor default
     public BangunDatar() {
 
