@@ -8,9 +8,11 @@ Tanggal   : 16 Maret 2026
 public class Lingkaran extends BangunDatar {
     private double jariJari;
 
- public Lingkaran(double jariJari, String warna, String border) {
-        super(1, warna, border); 
+    public Lingkaran(double jariJari, String warna, String border) {
         this.jariJari = jariJari;
+        setWarna(warna);
+        setBorder(border);
+        setJmlSisi(1); 
     }
 
     public double getJariJari() {
