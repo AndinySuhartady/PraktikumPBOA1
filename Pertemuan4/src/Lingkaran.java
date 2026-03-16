@@ -6,33 +6,34 @@ Tanggal   : 16 Maret 2026
 */
 
 public class Lingkaran extends BangunDatar {
-
     private double jariJari;
 
-    // Konstruktor default
-    public Lingkaran(){
-        super(1, "Hitam", "Solid");
-    }
-
-    // Konstruktor berparameter
-    public Lingkaran(double jariJari, String warna, String border){
-        super(1, warna, border);
+ public Lingkaran(double jariJari, String warna, String border) {
+        super(0, warna, border); 
         this.jariJari = jariJari;
     }
 
-    public double getLuas(){
+    public double getJariJari() {
+        return jariJari;
+    }
+
+    public void setJariJari(double jariJari) {
+        this.jariJari = jariJari;
+    }
+
+    public double hitungLuas() {
         return Math.PI * jariJari * jariJari;
     }
 
-    public double getKeliling(){
+    public double hitungKeliling() {
         return 2 * Math.PI * jariJari;
     }
 
     @Override
-    public void printInfo(){
+    public void printInfo() {
         super.printInfo();
-        System.out.println("Jari-jari   : " + jariJari);
-        System.out.println("Luas        : " + getLuas());
-        System.out.println("Keliling    : " + getKeliling());
+        System.out.println("Jari-jari: " + jariJari);
+        System.out.println("Luas: " + hitungLuas());
+        System.out.println("Keliling: " + hitungKeliling());
     }
 }
