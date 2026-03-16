@@ -40,3 +40,4 @@ public class Lingkaran extends BangunDatar {
         System.out.println("Keliling: " + hitungKeliling());
     }
 }
+    
