@@ -15,6 +15,7 @@ public class Persegi extends BangunDatar {
         this.sisi = sisi;
     }
 
+    
 
     // Getter dan Setter
     public double getSisi() {
