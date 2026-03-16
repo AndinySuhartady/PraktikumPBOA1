@@ -28,7 +28,6 @@ public class BangunDatar {
 
     }
 
-
     public int getJmlSisi() {
         return jmlSisi;
     }

@@ -15,6 +15,7 @@ public class Lingkaran extends BangunDatar {
         setJmlSisi(1); 
     }
 
+    
     public double getJariJari() {
         return jariJari;
     }

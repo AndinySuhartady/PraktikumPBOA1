@@ -12,6 +12,7 @@ public class MBangunDatar {
         Lingkaran l = new Lingkaran(7, "Hijau", "Kuning");
 
 
+        
         Persegi p1 = new Persegi(5, "Merah", "Hitam");
         Persegi p2 = new Persegi(10, "Biru", "Putih");
         p2.setSisi(10);
