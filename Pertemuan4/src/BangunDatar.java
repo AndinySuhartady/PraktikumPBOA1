@@ -12,13 +12,6 @@ public class BangunDatar {
     private static int counterBangunDatar = 0;
 
 
-
-
-    // Konstruktor default
-    public BangunDatar() {
-
-    }
-
     // Konstruktor berparameter
     public BangunDatar(int jmlSisi, String warna, String border) {
         this.jmlSisi = jmlSisi;

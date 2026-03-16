@@ -8,15 +8,11 @@ Tanggal   : 16 Maret 2026
 public class Persegi extends BangunDatar {
     private double sisi;
 
-    public Persegi(double sisi) {
-        setJmlSisi(4); 
-    }
 
     // Konstruktor dengan parameter
-    public Persegi(double sisi, String warna, String border) {
+      public Persegi(double sisi, String warna, String border) {
+        super(4, warna, border);
         this.sisi = sisi;
-        setWarna(warna);
-        setBorder(border);
     }
 
 

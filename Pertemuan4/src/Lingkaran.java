@@ -9,7 +9,7 @@ public class Lingkaran extends BangunDatar {
     private double jariJari;
 
  public Lingkaran(double jariJari, String warna, String border) {
-        super(0, warna, border); 
+        super(1, warna, border); 
         this.jariJari = jariJari;
     }
 
