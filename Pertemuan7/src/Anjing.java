@@ -1,3 +1,12 @@
+/*
+ * File : Anjing.java  
+ * Nama : Andiny Khaerany Suhartady
+ * NIM  : 24060124140194
+ * Tanggal : 26 April 2026  
+ * Deskripsi : Kelas turunan (subclass) dari Anabul yang merepresentasikan hewan anjing dengan perilaku gerak dan suara spesifik
+ */
+
+
 public class Anjing extends Anabul {
     public Anjing(String nama) {
         super(nama);

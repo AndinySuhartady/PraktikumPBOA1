@@ -1,3 +1,12 @@
+/*
+ * File : CoercionDemo.java
+ * Nama : Andiny Khaerany Suhartady
+ * NIM  : 24060124140194
+ * Tanggal : 26 April 2026
+ * Deskripsi :Program untuk mendemonstrasikan proses coercion (konversi tipe data) antara integer, char, double, dan String
+ */
+
+
 public class CoercionDemo {
     public static void main(String[] args) {
         int nilaiInt = 65;

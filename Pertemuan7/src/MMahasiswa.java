@@ -1,3 +1,13 @@
+/*
+ * File : MMahasiswa.java  
+ * Nama : Andiny Khaerany Suhartady
+ * NIM  : 24060124140194
+ * Tanggal : 26 April 2026  
+ * Deskripsi :Program utama untuk menguji penggunaan konstruktor dan method pada kelas Mahasiswa termasuk overloading dan cloning
+ */
+
+
+
 public class MMahasiswa {
     public static void main(String[] args) {
         // b. aplikasi semua varian setProgramStudi

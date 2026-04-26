@@ -1,3 +1,13 @@
+/*
+ * File :  Mahasiswa.java 
+ * Nama : Andiny Khaerany Suhartady
+ * NIM  : 24060124140194
+ * Tanggal : 26 April 2026  
+ * Deskripsi :Kelas yang merepresentasikan entitas Mahasiswa dengan atribut nim, nama, dan program studi serta berbagai konstruktor dan method
+ */
+
+
+
 public class Mahasiswa {
     private String nim;
     private String nama;
